@@ -1,0 +1,44 @@
+*{margin: 0;
+box-sizing: border-box;
+}
+body{background-image: url(background.jpg);
+background-size: cover;
+font-family: "Roboto", sans-serif;
+}
+.block{margin: auto;
+margin-top: 10px;
+padding: 50px;
+text-align: center;
+border-radius: 5px;
+width: 60%;
+background-color: rgba(0,0,0,0.5);
+}
+header > div{color:#00dd00;
+font-size: 25px;
+font-weight: bold;
+}
+nav{margin: 5px;
+background-color: #00dd00;
+padding: 10px;
+}
+main > section{text-align: left;
+color: white;
+padding: 10px;
+}
+.monopattino:before{content: "\25A0";
+font-size: 20px;
+}
+.via:before{content: "\21A6";
+}
+.carica > div{height:20px;
+border-radius: 5px;
+}
+.barra1{background-color: #f5b453;
+width: 70%;
+}
+.barra2{background-color: #1ec31e;
+width: 30%;
+}
+.barra3{background-color: #be4141;
+width: 50%;
+}
